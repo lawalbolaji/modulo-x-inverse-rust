@@ -20,7 +20,7 @@ For each subsequent step;
     x(i) = y(i-1) - (b(i-1)/a(i-1)) * x(i-1)
 where i is the step number and (b/a) is the quotient b/a.
 
-The computation bottoms out when a == 0 and at this point, the value of x is the modulo mutliplicative inverse of a in mod and the value of b is the gcd of a and b.
+The computation bottoms out when a == 0 and at this point, the value of x is the modulo mutliplicative inverse of a in mod b and the value of b is the gcd of a and b.
 
 It is impossible to find the modulo multiplicative inverse of a in modulo b if the gcd of a and b is not equal to 1
 
