@@ -100,7 +100,7 @@ fn gcd_extended(a:i32, b:i32, x:&mut i32, y:&mut i32) -> i32{
     }
 
     // declare variables x1 and y1 to store results of imntermetent computation of s(i) and t(i) where i is the step
-    // It's necessary to assign default values to them because null values are essentially useless in Rust. In another language like C, the assignment may not have been necessary.
+    // It's necessary to assign default values to avoid compile errors because unassigned values cannot be passed as function arguments in Rust. In another language like C, the assignment may not have been necessary.
     // Notice how we do not use x and y for any computation until the base case is reached, at which point, we actually do assign values to them.
 
     let mut x1 = 1; // It really doesnt matter what you assign here
